@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity"
+    android:background="@color/background2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="299dp"
+                android:textSize="32dp"
+                android:layout_marginTop="103dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:text="Создайте аккаунт"
+                android:layout_gravity="center"
+
+
+                />
+
+            <TextView
+                android:id="@+id/enterTxt"
+                android:layout_width="241dp"
+                android:textSize="20dp"
+                android:layout_marginTop="181.05dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:text="Зарегистрируйтесь"
+                android:layout_gravity="center"
+
+
+                />
+
+            <EditText
+                android:id="@+id/loginEditTxt"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="39.25dp"
+                android:ems="10"
+                android:drawableStart="@drawable/ic_person_24px_1"
+                android:layout_gravity="center"
+                android:inputType="textPersonName"
+                android:hint="Логин или e-mail" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:inputType="textPassword"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19.25dp"
+                android:ems="10"
+                android:drawableStart="@drawable/ic_person_24px_1"
+                android:layout_gravity="center"
+                android:hint="Пароль"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button"
+                android:layout_width="175dp"
+                android:layout_height="59.73dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="34.42dp"
+                android:textAllCaps="false"
+                android:text="Продолжить" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/continueBtn"
+                android:layout_width="175dp"
+                android:layout_height="59.73dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="34.42dp"
+                android:textAllCaps="false"
+                android:text="Продолжить" />
+            <TextView
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="184.25dp"
+                android:text="Забыли пароль>"
+                />
+
+            <TextView
+                android:layout_width="241dp"
+                android:layout_height="wrap_content"
+                android:text="Восстановить пароль" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
